@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title>泡麵介紹</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            background-color: #e0f8e0;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        .shadowbox {
+            width: 60.8em;
+            height: 20px;
+            border: 1px solid #333;
+            box-shadow: 8px 8px 5px #444;
+           padding: 8px 12px;
+         background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    }
+    </style>
+</head>
+<body>
+    <h1>泡麵介紹</h1>
+    <p>泡麵是一種方便又美味的食物，它有各種不同的口味和風格，可以滿足不同的喜好和需求。這裡介紹了10種泡麵，並按照產地的國家分為六個分類：泰國、韓國、日本、台灣、印尼和馬來西亞。每種泡麵都有一張圖片和一個評分，評分是根據網路上的評論和個人的喜好而定，僅供參考。</p>
+    <body>
+    <select style="border:2px black solid;font-size:15px;background-color:#E3E3E3;" onChange="location = this.options[this.selectedIndex].value;">
+            <option value="#">請選擇</option>
+            <option value="https://quannnyu.github.io/">國家</option>
+            <option value="http://tw.yahoo.com">評分</option>
+            <option value="http://www.php.net">價錢</option>
+     </select>
+    <div style="border:2px black solid;font-size:20px;background-color:#E3E3E3 ;">
+               <a href="#泰國">泰國</a>
+                                   
+           <a href="#韓國">韓國</a>
+                                   
+           <a href="#日本">日本</a>
+                                   
+           <a href="#台灣">台灣</a>
+                                   
+           <a href="#印尼">印尼</a>
+                                   
+           <a href="#馬來西亞">馬來西亞</a>
+    </div>
+    <body>
+    <table>
+        <tr>
+            <td id="韓國">韓國</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.amazon.com/-/zh_TW/%E8%BE%B2%E5%BF%83%E8%BE%A3%E6%8B%89%E9%BA%B5-4-2oz-120g/dp/B00BEIKRBY/ref=sr_1_1?dchild=1&keywords=%E8%BE%B2%E5%BF%83%E8%BE%A3%E6%8B%89%E9%BA%B5&qid=1632732408&sr=8-1">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81Q%2B0zR9ZEL._AC_SL1500_.jpg" alt="農心辛拉麵">
+</a>
+                <p>農心辛拉麵</p>
+                <p>評分：5/5</p>
+                <p>這是一種韓國風味的泡麵，湯底濃郁而辣，麵條粗而有嚼勁，適合喜歡刺激的口味的人。</p>
+            </td>
+            <td>
+                <a href="https://www.amazon.com/-/zh_TW/%E6%97%A5%E6%B8%85%E5%87%BA%E5%89%8D%E4%B8%80%E4%B8%81-%E6%8B%89%E9%BA%B5-3-5oz-100g/dp/B00B5NOPT8/ref=sr_1_1?dchild=1&keywords=%E6%97%A5%E6%B8%85%E5%87%BA%E5%89%8D%E4%B8%80%E4%B8%81&qid=1632732457&sr=8-1">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81X%2BZw9qQDL._AC_SL1500_.jpg" alt="日清出前一丁">
+</a>
+                <p>日清出前一丁</p>
+                <p>評分：4/5</p>
+                <p>這是一種日本風味的泡麵，湯底清淡而鮮香，麵條細而彈牙，適合喜歡簡單的口味的人。</p>
+            </td>
+            <td>
+                <a href="https://www.amazon.com/-/zh_TW/%E6%97%A5%E6%B8%85%E5%85%B5%E8%A1%9B%E8%B1%86%E7%9A%AE%E7%83%8F%E9%BE%8D%E6%B3%A1%E9%BA%B5-3-5oz-100g/dp/B00B5NOQD8/ref=sr_1_1?dchild=1&keywords=%E6%97%A5%E6%B8%85%E5%85%B5%E8%A1%9B%E8%B1%86%E7%9A%AE%E7%83%8F%E9%BE%8D%E6%B3%A1%E9%BA%B5&qid=1632732490&sr=8-1">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81L%2Bw%2B%2BZyGL._AC_SL1500_.jpg" alt="日清兵衛豆皮烏龍泡麵">
+</a>
+                <p>日清兵衛豆皮烏龍泡麵</p>
+                <p>評分：4/5</p>
+                <p>這是一種日本風味的泡麵，湯底濃郁而香，麵條細而有嚼勁，適合喜歡烏龍麵的口味的人。</p>
+            </td>
+        </tr>
+        <tr>
+            <td id="印尼">印尼</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.amazon.com/-/zh_TW/Indomie-Mi-Goreng-Instant-Noodle/dp/B00HXIXWKM/ref=sr_1_1?dchild=1&keywords=%E5%8D%B0%E5%B0%BC%E7%82%92%E9%BA%B5&qid=1632732527&sr=8-1">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81JcGxO9%2BPL._AC_SL1500_.jpg" alt="印尼炒麵">
+</            </td>
+        </tr>
+        <tr>
+            <td id="馬來西亞">馬來西亞</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.amazon.com/-/zh_TW/Koka-Mushroom-Flavour-Instant-Noodles/dp/B00B5NOQD8/ref=sr_1_1?dchild=1&keywords=KOKA%E8%98%91%E8%8F%87%E9%9B%9E%E6%B9%AF%E9%BA%B5&qid=1632732567&sr=8-1">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/81L%2Bw%2B%2BZyGL._AC_SL1500_.jpg" alt="KOKA蘑菇雞湯麵">
+</a>
+                <p>KOKA蘑菇雞湯麵</p>
+                <p>評分：3/5</p>
+                <p>這是一種馬來西亞風味的泡麵，湯底清淡而香，麵條細而滑，適合喜歡自然的口味的人。</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
